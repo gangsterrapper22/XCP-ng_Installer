@@ -10,16 +10,24 @@
       <ComponentGroupRef Id="XCP-ng" />
     </Feature>
   </Product>
+  
+<Fragment>
+  <Property Id="ROOTDRIVE">
+    <![CDATA[C:\]]>
+  </Property>
+  
+<Directory Id="TARGETDIR" Name="SourceDir">
+  <Directory Id="ProgramFiles" Name="Program Files">
+  <Directory Id="INSTALLFOLDER" Name="XCP-ng">
 
-  <Fragment>
-    <Directory Id="TARGETDIR" Name="SourceDir">
-      <Directory Id="ProgramFilesFolder">
-        <Directory Id="INSTALLFOLDER" Name="XCP-ng" />
+      <Component Id="cmpMain" Guid="{2FC55E1C-1E54-415C-AC94-C1794388CD42}" KeyPath="yes" Feature="ProductFeature"/>
       </Directory>
+  </Directory>
     </Directory>
-  </Fragment>
-
-
+  <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER"></Property>
+  <UIRef Id="WixUI_InstallDir"/>
+    
+</Fragment>
 
   <Fragment>
     <DirectoryRef Id="INSTALLFOLDER">

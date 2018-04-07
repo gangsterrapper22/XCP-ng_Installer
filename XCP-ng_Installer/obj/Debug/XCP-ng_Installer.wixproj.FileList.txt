@@ -1,6 +1,0 @@
-obj\Debug\Product.wixobj
-C:\Users\matthias\source\repos\XCP-ng_Installer\XCP-ng_Installer\bin\Debug\XCP_ng_Installer.msi
-C:\Users\matthias\source\repos\XCP-ng_Installer\XCP-ng_Installer\bin\Debug\XCP_ng_Installer.wixpdb
-obj\Debug\XCP-ng_Installer.wixproj.BindContentsFileListnull.txt
-obj\Debug\XCP-ng_Installer.wixproj.BindOutputsFileListnull.txt
-obj\Debug\XCP-ng_Installer.wixproj.BindBuiltOutputsFileListnull.txt

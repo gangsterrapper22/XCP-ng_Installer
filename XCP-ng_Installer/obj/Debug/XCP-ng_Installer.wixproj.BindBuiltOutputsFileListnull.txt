@@ -1,2 +1,0 @@
-C:\Users\matthias\source\repos\XCP-ng_Installer\XCP-ng_Installer\bin\Debug\XCP_ng_Installer.msi
-C:\Users\matthias\source\repos\XCP-ng_Installer\XCP-ng_Installer\bin\Debug\XCP_ng_Installer.wixpdb
